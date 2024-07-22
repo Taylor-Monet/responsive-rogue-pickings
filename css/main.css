@@ -228,9 +228,10 @@ footer span {
 
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* text-align: center; */
     align-items: center;
+    padding-top: 30px 0 20px 0;
     /* height: 110px; */
     /* margin: 0 auto; */
   }
@@ -238,23 +239,26 @@ footer span {
   header h1 {
     /* float: left; */
     /* margin: 0; */
-    width: 90%;
-    padding: 38px 0 20px 0;
+    width: 79%;
+    padding: 35px 0 30px 0;
     /* border-bottom: 3px solid #77a466; */
     border-bottom: none;
     text-align: left;
   }
 
   header nav {
-    display: flex;
     /* float: right; */
-    padding: 10px 0;
     width: 21%;
   }
 
   header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     margin: 0;
     padding: 0;
     list-style: none;
+  }
+  
   }
 }
