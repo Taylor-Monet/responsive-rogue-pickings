@@ -218,6 +218,7 @@ footer span {
     width: 26%;
   }
 }
+
 @media all and (min-width: 1200px) {
   /* Desktop styles here */
 
@@ -227,26 +228,28 @@ footer span {
 
   header {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
     /* height: 110px; */
     /* margin: 0 auto; */
   }
 
   header h1 {
     /* float: left; */
-    width: 24%;
-    padding: 5px;
-    /* border-bottom: 3px solid #77a466; */
-    text-align: ;
     /* margin: 0; */
-    /* padding: 38px 0 20px 0; */
-   
+    width: 90%;
+    padding: 38px 0 20px 0;
+    /* border-bottom: 3px solid #77a466; */
+    border-bottom: none;
+    text-align: left;
   }
 
   header nav {
+    display: flex;
     /* float: right; */
-    padding: 20px 0;
+    padding: 10px 0;
+    width: 21%;
   }
 
   header nav ul {
